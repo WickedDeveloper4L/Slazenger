@@ -1,0 +1,7 @@
+font-family: 'Bungee Spice', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Open+Sans:wght@300&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
