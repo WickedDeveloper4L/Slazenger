@@ -1,6 +1,8 @@
 import React from 'react'
 import './header.scss'
-import {CgShoppingBag} from 'react-icons/cg'
+import { CgHome, CgHeart, CgUser} from 'react-icons/cg'
+import { Link } from 'react-router-dom'
+import CartIcon from '../CartIcon/CartIcon'
 
 const Header = () => {
   return (
@@ -10,27 +12,28 @@ const Header = () => {
             <span className="title">SLAZENGER.</span>
         </div>
         <div className="user_container">
-            <span className="option">wishlist</span>
-            <span className="option">user</span>
-            <span className="option"><CgShoppingBag/></span>
+            <Link className="option" to='/Home'><CgHome className='tab'/></Link>
+            <span className="option"><CgHeart className='tab'/></span>
+            <Link className="option" to='/Login'><CgUser className='tab'/></Link>
+            <span className="option"><CartIcon/></span>
         </div>
     </div>
     <div className='page_nav'>
-      <span className="nav_item">
+      <Link className="nav_item" to='/hats'>
       HATS
-      </span>
-      <span className="nav_item">
+      </Link>
+      <Link className="nav_item" to='/jackets'>
       JACKETS
-      </span>
-      <span className="nav_item">
+      </Link>
+      <Link className="nav_item" to='/sneakers'>
       SNEAKERS
-      </span>
-      <span className="nav_item">
+      </Link>
+      <Link className="nav_item" to='/women'>
       WOMEN'S
-      </span>
-      <span className="nav_item">
+      </Link>
+      <Link className="nav_item" to='/men'>
       MEN'S
-      </span>
+      </Link>
     </div>
     </div>
     

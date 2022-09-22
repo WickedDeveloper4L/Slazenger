@@ -1,0 +1,29 @@
+.group{
+    .form-input{
+        padding: 10px 10px 10px 5px;
+        background-color: black;
+        color: rgb(255, 204, 0);
+        border: 2px solid rgb(255, 204, 0);
+        font-size: 0.8rem;
+        font-weight: 500;
+        width: 210px;
+        border-radius: 5px;
+        font-family: 'Titillium Web', sans-serif;
+        transition: 300ms ease-in-out;
+        
+        &:focus{
+            border-color: goldenrod;
+            border: 2px solid goldenrod;
+        }
+
+        &::placeholder{
+            color: rgb(255, 204, 0);
+            font-family: 'Titillium Web', sans-serif;
+        }
+
+        
+
+        
+    }
+
+}

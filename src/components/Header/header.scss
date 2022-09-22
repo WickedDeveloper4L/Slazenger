@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr;
     width: 100vw;
+    border-bottom: 2px rgb(255, 204, 0);
 
    .header{
     width: 100vw;
@@ -15,6 +16,7 @@
         font-family: 'Luckiest Guy', cursive;
         color: black;
         font-size: 2rem;
+        background-color: rgb(255, 204, 0);
     }
     .user_container{
       width: 50%;
@@ -23,11 +25,21 @@
       align-items: center;
       justify-content: flex-end;
       cursor: pointer;
+      background-color: rgb(255, 204, 0);
 
 
       .option{
         padding: 0rem 1rem;
         color: black;
+        background-color: rgb(255, 204, 0);
+
+
+        .tab{
+            width: 24px;
+            height: 24px;
+            background-color: rgb(255, 204, 0);
+
+        }
       }
     }
 
@@ -39,8 +51,8 @@
         justify-content: center;
         align-content: center;
         padding: 1rem;
-        border-bottom: 1px solid black;
         background-color: black;
+        border-bottom: 2px solid rgb(255, 204, 0);
 
         .nav_item{
             padding: 0px 2rem;

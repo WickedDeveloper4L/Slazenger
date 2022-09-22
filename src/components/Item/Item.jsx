@@ -1,18 +1,18 @@
 import React from 'react'
 import './item.scss'
 import CustomButton from '../customButton/CustomButton'
-
-const Item = () => {
+import {CgHeart} from 'react-icons/cg'
+const Item = ({item}) => {
+  const {imageUrl, name, price} = item
   return (
     <div className='item'>
         <div className='image_container'>
-            <img src="" alt="" />
+            <img src={imageUrl} alt="item" />
         </div>
-        <span className="description"></span>
+        <span className="description">{name}</span>
         <div className='controls'>
-            <span className='price'></span>
-            <span className='quantity'></span>
-            <span className='quantity_figure'></span>
+            <span className='price'>${price}</span>
+            <span className="price"><CgHeart/></span>
         </div>
         <CustomButton>Add to Cart</CustomButton>
     </div>

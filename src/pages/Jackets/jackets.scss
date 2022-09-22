@@ -1,0 +1,30 @@
+.jackets-page{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    align-content: center;
+
+    .title{
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 3rem;
+        font-weight: 600;
+    }
+
+    .items-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+
+}
