@@ -1,10 +1,11 @@
 import React from 'react'
 import './header.scss'
-import { CgHome, CgHeart, CgUser} from 'react-icons/cg'
+import { CgHome, CgHeart, CgUser, CgLogOut} from 'react-icons/cg'
 import { Link } from 'react-router-dom'
 import CartIcon from '../CartIcon/CartIcon'
+import { auth } from '../../firebase/firebase.utils'
 
-const Header = () => {
+const Header = ({currentUser}) => {
   return (
   <div className='navigation'>
     <div className='header'>
@@ -12,10 +13,10 @@ const Header = () => {
             <span className="title">SLAZENGER.</span>
         </div>
         <div className="user_container">
-            <Link className="option" to='/Home'><CgHome className='tab'/></Link>
+            <Link className="option" to='/'><CgHome className='tab'/></Link>
             <span className="option"><CgHeart className='tab'/></span>
-            <Link className="option" to='/Login'><CgUser className='tab'/></Link>
             <span className="option"><CartIcon/></span>
+            {currentUser ? (<Link className='option' to='/'><CgLogOut className='tab' onClick={()=> auth.signOut()} /></Link>) : (<Link className="option" to='/Login'><CgUser className='tab'/></Link>)}
         </div>
     </div>
     <div className='page_nav'>
