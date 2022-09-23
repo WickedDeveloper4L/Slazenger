@@ -2,7 +2,10 @@ import React from 'react'
 import './item.scss'
 import CustomButton from '../customButton/CustomButton'
 import {CgHeart} from 'react-icons/cg'
-const Item = ({item}) => {
+import { connect } from 'react-redux/es/exports'
+import { addItem} from '../../redux/cart/cart.reducer'
+
+const Item = ({item, addItem}) => {
   const {imageUrl, name, price} = item
   return (
     <div className='item'>
@@ -14,9 +17,11 @@ const Item = ({item}) => {
             <span className='price'>${price}</span>
             <span className="price"><CgHeart/></span>
         </div>
-        <CustomButton>Add to Cart</CustomButton>
+        <CustomButton item onClick={() => addItem(item)}>Add to Cart</CustomButton>
     </div>
   )
 }
-
-export default Item
+const mapDispatchToProps = dispatch =>({
+  addItem: item=>dispatch(addItem(item))
+})
+export default connect(null, mapDispatchToProps)(Item)

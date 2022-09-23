@@ -11,14 +11,14 @@
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
     font-weight: bolder;
-    border: none;
+    border: 1px solid black;
     cursor: pointer;
     transition: 200ms ease-in-out;
   
     &:hover {
       background-color: black;
       color: rgb(255, 204, 0);
-      border: 1px solid black;
+      border: 1px solid rgb(255, 204, 0);
     }
 
 }

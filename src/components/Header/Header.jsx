@@ -1,11 +1,17 @@
 import React from 'react'
 import './header.scss'
-import { CgHome, CgHeart, CgUser, CgLogOut} from 'react-icons/cg'
+import { CgHome, CgUser, CgLogOut} from 'react-icons/cg'
 import { Link } from 'react-router-dom'
 import CartIcon from '../CartIcon/CartIcon'
 import { auth } from '../../firebase/firebase.utils'
+import WishlistIcon from '../wishListIcon/WishlistIcon'
+import CartDropdown from '../cartDropdown/CartDropdown'
+import { connect } from 'react-redux/es/exports';
+import { selectCurrentUser } from '../../redux/user/user.selectors'
+import { selectCartHidden } from '../../redux/cart/cart.selectors'
+import { createStructuredSelector } from 'reselect'
 
-const Header = ({currentUser}) => {
+const Header = ({currentUser, hidden}) => {
   return (
   <div className='navigation'>
     <div className='header'>
@@ -14,7 +20,7 @@ const Header = ({currentUser}) => {
         </div>
         <div className="user_container">
             <Link className="option" to='/'><CgHome className='tab'/></Link>
-            <span className="option"><CgHeart className='tab'/></span>
+            <span className="option"><WishlistIcon className='tab'/></span>
             <span className="option"><CartIcon/></span>
             {currentUser ? (<Link className='option' to='/'><CgLogOut className='tab' onClick={()=> auth.signOut()} /></Link>) : (<Link className="option" to='/Login'><CgUser className='tab'/></Link>)}
         </div>
@@ -36,9 +42,16 @@ const Header = ({currentUser}) => {
       MEN'S
       </Link>
     </div>
+    {
+      hidden ? null : <CartDropdown/>
+    }
     </div>
     
   )
 }
 
-export default Header
+const mapStateToProps = createStructuredSelector({
+  currentUser: selectCurrentUser,
+  hidden: selectCartHidden
+})
+export default connect(mapStateToProps)(Header)
