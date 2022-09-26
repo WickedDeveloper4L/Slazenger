@@ -20,8 +20,8 @@ const Header = ({currentUser, hidden}) => {
         </div>
         <div className="user_container">
             <Link className="option" to='/'><CgHome className='tab'/></Link>
-            <span className="option"><WishlistIcon className='tab'/></span>
-            <span className="option"><CartIcon/></span>
+            <Link to='/Wishlist' className="option"><WishlistIcon className='tab'/></Link>
+            <span className="option" ><CartIcon/></span>
             {currentUser ? (<Link className='option' to='/'><CgLogOut className='tab' onClick={()=> auth.signOut()} /></Link>) : (<Link className="option" to='/Login'><CgUser className='tab'/></Link>)}
         </div>
     </div>

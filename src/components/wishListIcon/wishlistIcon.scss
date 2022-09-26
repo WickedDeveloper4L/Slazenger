@@ -14,13 +14,14 @@
 
     .wishlist-count{
       position: absolute;
-      font-size: 10px;
       font-weight: bold;
+      font-size: 10px;
       top: 5px;
       right: 5px;
-      background-color: black;
-      padding: 0 4px;
-      border-radius: 3rem;
-      color: rgb(255, 204, 0);
+      background-color: rgb(234, 32, 32);
+      padding: 0px 6px;
+      border-radius: 5rem;
+      color: rgb(234, 32, 32);
+      transition: 300ms ease-in-out;
     }
 }
