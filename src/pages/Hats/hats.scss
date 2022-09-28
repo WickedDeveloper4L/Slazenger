@@ -27,4 +27,38 @@
         margin: auto;
     }
 
+    @media screen and (max-width: 1024px) {
+        .title{
+            font-size: 1.5rem;
+        }
+
+        .items-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            text-align: center;
+            width: 100%;
+            margin: auto;
+            padding: 1rem;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .title{
+            font-size: 1.5rem;
+        }
+
+        .items-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            text-align: center;
+            width: 100%;
+            margin: auto;
+            padding: 1rem;
+        }
+    }
 }

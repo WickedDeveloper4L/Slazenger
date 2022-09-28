@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: black;
+    padding: 1rem;
+
+
+    .h1{
+        font-size: 1rem;
+        font-family: 'Titillium Web', sans-serif;
+        color: rgb(255, 204, 0);
+    }
+
+    .pureking{
+        font-family: 'Rubik Dirt', cursive;
+        font-size: 3rem;
+        color: rgb(255, 204, 0);
+    }
+}

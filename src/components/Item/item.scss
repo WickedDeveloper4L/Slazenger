@@ -4,6 +4,8 @@
     padding: 10px;
     width: 200px;
     border: 1px solid black;
+    position: relative;
+    z-index: 1;
 
     &:hover{
       border-color: rgb(255, 208, 0);
