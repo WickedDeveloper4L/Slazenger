@@ -12,7 +12,7 @@
         font-size: 2rem;
         text-align: center;
         font-family: 'Open Sans', sans-serif;
-        padding-bottom: 3rem;
+        padding-bottom: 1rem;
         font-weight: 600;
     }
 
@@ -21,13 +21,12 @@
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
         justify-content: center;
-        gap: 1rem;
+        gap: 1.3rem;
         text-align: center;
         width: 50%;
         margin: auto;
-        padding-bottom: 4rem;
 
-        
+    
     }
     .option{
          text-align: center;
@@ -37,18 +36,26 @@
 
     @media screen and (max-width: 600px){
 
+        .title{
+            font-size: 2rem;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            padding-bottom: 1rem;
+            font-weight: 600;
+        }
 
         .wishlist-items{
             display: grid;
             grid-template-columns: 1fr 1fr;
             align-items: center;
             justify-content: center;
-            gap: 0.5rem;
+            gap: 1.3rem;
             text-align: center;
-            width: 90vw;
-            margin: 0 auto;
-            padding: 0rem 1rem;
+            width: 100vw;
+            margin: auto;
             padding-bottom: 4rem;
+            height: 90vh;
+            overflow: scroll;
 
         }
     }

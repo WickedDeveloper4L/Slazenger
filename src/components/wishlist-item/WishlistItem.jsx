@@ -9,7 +9,7 @@ const WishlistItem = ({item, addItem, removeItem}) => {
 
     const {imageUrl, name, price} = item
   return (
-    <div className='item'>
+    <div className='wishlist-item'>
         <div className='image_container'>
             <img src={imageUrl} alt="item" />
         </div>

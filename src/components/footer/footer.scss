@@ -8,6 +8,9 @@
     width: 100vw;
     background-color: black;
     padding: 1rem;
+    bottom: 0;
+    position: static;
+    z-index: 5;
 
 
     .h1{

@@ -85,25 +85,25 @@ const SHOP_DATA = [
         },
         {
           id: 13,
-          name: 'Nike White AirForce',
+          name: 'White AirForce',
           imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
           price: 160
         },
         {
           id: 14,
-          name: 'Nike Red High Tops',
+          name: 'Red High Tops',
           imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
           price: 160
         },
         {
           id: 15,
-          name: 'Nike Brown High Tops',
+          name: 'Brown High Tops',
           imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
           price: 160
         },
         {
           id: 16,
-          name: 'Air Jordan Limited',
+          name: 'Air Jordan Ltd',
           imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
           price: 190
         },
@@ -122,13 +122,13 @@ const SHOP_DATA = [
       items: [
         {
           id: 18,
-          name: 'Black Jean Shearling',
+          name: 'Blk Jean Shearling',
           imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
           price: 125
         },
         {
           id: 19,
-          name: 'Blue Jean Jacket',
+          name: 'Blue Jean Jackett',
           imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
           price: 90
         },
@@ -220,7 +220,7 @@ const SHOP_DATA = [
         },
         {
           id: 32,
-          name: 'Black & White Longsleeve',
+          name: 'black Longsleeve',
           imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
           price: 25
         },

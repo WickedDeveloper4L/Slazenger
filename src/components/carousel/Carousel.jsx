@@ -10,6 +10,10 @@ import 'swiper/scss/effect-fade';
 import 'swiper/css/pagination';
 import Carousel1 from './sabina-0zAHoJ1gnGg-unsplash.webp'
 import Carousel2 from './spacejoy-KSfe2Z4REEM-unsplash.webp'
+import Carousel3 from './luke-chesser-vCF5sB7QecM-unsplash.jpg'
+import Carousel4 from './markus-winkler-1lmPFQ7ZXeM-unsplash.jpg'
+import Carousel5 from './martin-adams-zbPDL84kvRg-unsplash.jpg'
+import Carousel6 from './burgess-milner-OYYE4g-I5ZQ-unsplash.jpg'
 
 
 
@@ -28,6 +32,10 @@ import Carousel2 from './spacejoy-KSfe2Z4REEM-unsplash.webp'
     >
       <SwiperSlide className='swiper'><img src={Carousel1} alt="" className='swiper__container'/></SwiperSlide>
       <SwiperSlide className='swiper'><img src={Carousel2} alt="" className='swiper__container'/></SwiperSlide>
+      <SwiperSlide className='swiper'><img src={Carousel3} alt="" className='swiper__container'/></SwiperSlide>
+      <SwiperSlide className='swiper'><img src={Carousel4} alt="" className='swiper__container'/></SwiperSlide>
+      <SwiperSlide className='swiper'><img src={Carousel5} alt="" className='swiper__container'/></SwiperSlide>
+      <SwiperSlide className='swiper'><img src={Carousel6} alt="" className='swiper__container'/></SwiperSlide>
     </Swiper>
     </div>
     
