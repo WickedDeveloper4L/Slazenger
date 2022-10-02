@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/slazenger/static/css/main.13ccd094.css",
-    "main.js": "/slazenger/static/js/main.c0b95af2.js",
-    "static/media/burgess-milner-OYYE4g-I5ZQ-unsplash.jpg": "/slazenger/static/media/burgess-milner-OYYE4g-I5ZQ-unsplash.8e6067a4b4a9194a386d.jpg",
-    "static/media/luke-chesser-vCF5sB7QecM-unsplash.jpg": "/slazenger/static/media/luke-chesser-vCF5sB7QecM-unsplash.e86ef3e334f067878cc8.jpg",
-    "static/media/markus-winkler-1lmPFQ7ZXeM-unsplash.jpg": "/slazenger/static/media/markus-winkler-1lmPFQ7ZXeM-unsplash.c529b38bc6a48c4b4f70.jpg",
-    "static/media/martin-adams-zbPDL84kvRg-unsplash.jpg": "/slazenger/static/media/martin-adams-zbPDL84kvRg-unsplash.bace923faeaeb17b52ef.jpg",
-    "static/media/spacejoy-KSfe2Z4REEM-unsplash.webp": "/slazenger/static/media/spacejoy-KSfe2Z4REEM-unsplash.dfebb94c60dde0ce6258.webp",
-    "static/media/sabina-0zAHoJ1gnGg-unsplash.webp": "/slazenger/static/media/sabina-0zAHoJ1gnGg-unsplash.74dde4b369d56da5ec51.webp",
-    "index.html": "/slazenger/index.html",
-    "main.13ccd094.css.map": "/slazenger/static/css/main.13ccd094.css.map",
-    "main.c0b95af2.js.map": "/slazenger/static/js/main.c0b95af2.js.map"
+    "main.css": "/Slazenger/static/css/main.13ccd094.css",
+    "main.js": "/Slazenger/static/js/main.7e2f1f06.js",
+    "static/media/burgess-milner-OYYE4g-I5ZQ-unsplash.jpg": "/Slazenger/static/media/burgess-milner-OYYE4g-I5ZQ-unsplash.8e6067a4b4a9194a386d.jpg",
+    "static/media/luke-chesser-vCF5sB7QecM-unsplash.jpg": "/Slazenger/static/media/luke-chesser-vCF5sB7QecM-unsplash.e86ef3e334f067878cc8.jpg",
+    "static/media/markus-winkler-1lmPFQ7ZXeM-unsplash.jpg": "/Slazenger/static/media/markus-winkler-1lmPFQ7ZXeM-unsplash.c529b38bc6a48c4b4f70.jpg",
+    "static/media/martin-adams-zbPDL84kvRg-unsplash.jpg": "/Slazenger/static/media/martin-adams-zbPDL84kvRg-unsplash.bace923faeaeb17b52ef.jpg",
+    "static/media/spacejoy-KSfe2Z4REEM-unsplash.webp": "/Slazenger/static/media/spacejoy-KSfe2Z4REEM-unsplash.dfebb94c60dde0ce6258.webp",
+    "static/media/sabina-0zAHoJ1gnGg-unsplash.webp": "/Slazenger/static/media/sabina-0zAHoJ1gnGg-unsplash.74dde4b369d56da5ec51.webp",
+    "index.html": "/Slazenger/index.html",
+    "main.13ccd094.css.map": "/Slazenger/static/css/main.13ccd094.css.map",
+    "main.7e2f1f06.js.map": "/Slazenger/static/js/main.7e2f1f06.js.map"
   },
   "entrypoints": [
     "static/css/main.13ccd094.css",
-    "static/js/main.c0b95af2.js"
+    "static/js/main.7e2f1f06.js"
   ]
 }
