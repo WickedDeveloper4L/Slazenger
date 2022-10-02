@@ -40,7 +40,7 @@ const Checkout = ({cartItems, total, currentUser}) => {
              : null}
         </div>
         {cartItems.length ? (<div className='total'>TOTAL: ${total}</div>) : (<span className='option'>It's boring down here!&#128565;</span>)}
-        <PaystackButton {...componentProps} className='paystack'/>
+        {cartItems.length ? <PaystackButton {...componentProps} className='paystack'/> : null}
     </div>
   )
 }
