@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Slazenger/static/css/main.13ccd094.css",
-    "main.js": "/Slazenger/static/js/main.f07033e8.js",
+    "main.css": "/Slazenger/static/css/main.d3d4ab6c.css",
+    "main.js": "/Slazenger/static/js/main.da45af2d.js",
     "static/media/burgess-milner-OYYE4g-I5ZQ-unsplash.jpg": "/Slazenger/static/media/burgess-milner-OYYE4g-I5ZQ-unsplash.8e6067a4b4a9194a386d.jpg",
     "static/media/luke-chesser-vCF5sB7QecM-unsplash.jpg": "/Slazenger/static/media/luke-chesser-vCF5sB7QecM-unsplash.e86ef3e334f067878cc8.jpg",
     "static/media/markus-winkler-1lmPFQ7ZXeM-unsplash.jpg": "/Slazenger/static/media/markus-winkler-1lmPFQ7ZXeM-unsplash.c529b38bc6a48c4b4f70.jpg",
@@ -9,11 +9,11 @@
     "static/media/spacejoy-KSfe2Z4REEM-unsplash.webp": "/Slazenger/static/media/spacejoy-KSfe2Z4REEM-unsplash.dfebb94c60dde0ce6258.webp",
     "static/media/sabina-0zAHoJ1gnGg-unsplash.webp": "/Slazenger/static/media/sabina-0zAHoJ1gnGg-unsplash.74dde4b369d56da5ec51.webp",
     "index.html": "/Slazenger/index.html",
-    "main.13ccd094.css.map": "/Slazenger/static/css/main.13ccd094.css.map",
-    "main.f07033e8.js.map": "/Slazenger/static/js/main.f07033e8.js.map"
+    "main.d3d4ab6c.css.map": "/Slazenger/static/css/main.d3d4ab6c.css.map",
+    "main.da45af2d.js.map": "/Slazenger/static/js/main.da45af2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.13ccd094.css",
-    "static/js/main.f07033e8.js"
+    "static/css/main.d3d4ab6c.css",
+    "static/js/main.da45af2d.js"
   ]
 }
