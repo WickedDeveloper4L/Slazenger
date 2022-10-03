@@ -5,7 +5,7 @@ import { selectCartItems, selectCartTotal } from '../../redux/cart/cart.selector
 import {connect} from 'react-redux'
 import CheckoutItem from '../../components/checkout-item/CheckoutItem'
 import {PaystackButton} from 'react-paystack'
-
+import { CheckoutWithStripe } from '../../components/stripe/CheckoutWithStripe'
 
 const Checkout = ({cartItems, total}) => {
 
@@ -25,7 +25,7 @@ const Checkout = ({cartItems, total}) => {
 
   const componentProps ={
     ...config,
-    text: 'Pay Now',
+    text: 'Pay with Paystack',
     onSuccess: (reference)=> handlePaymentSuccess(reference),
     onClose: handlePaystackDialogueClose,
   }
@@ -40,6 +40,7 @@ const Checkout = ({cartItems, total}) => {
         </div>
         {cartItems.length ? (<div className='total'>TOTAL: ${total}</div>) : (<span className='option'>It's boring down here!&#128565;</span>)}
         {cartItems.length ? <PaystackButton {...componentProps} className='paystack'/> : null}
+        {cartItems.length ? <CheckoutWithStripe price={total} /> : null}
     </div>
   )
 }
